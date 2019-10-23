@@ -128,11 +128,13 @@ body,html {
 	max-width: 50%;
 	font-size: 18pt;
 }
-.block-aboutUs{
+.insert-block{
 	display: flex;
 	width: 100%;
 	height: auto;
 	justify-content: space-around;
+}
+.block-aboutUs{
 }
 .aboutUs-item {
 	min-height:;
@@ -156,12 +158,19 @@ body,html {
 	justify-content: space-around;
 
 }
+.flex-block-OurServices {
+	min-width: 240px;
+	width: 20%;
+	max-width: 360px;
+	height: 100%;
+	max-height: 640px;
+}
 .img-aboutUs{
 	color: black;
 }
-.flex-block-aboutUs .img-flex-block-aboutUs,
-.flex-block-aboutUs .heading-flex-block-aboutUs,
-.flex-block-aboutUs .parag-flex-block-aboutUs {
+.flex-block .img-flex-block,
+.flex-block .heading-flex-block,
+.flex-block .parag-flex-block {
 	margin-bottom: 40px;
 }
 /*@media only screen and (max-width:1500px){
