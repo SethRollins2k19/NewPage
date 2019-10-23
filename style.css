@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	color: #323232;
+	color: 
 }
 ul {
 	list-style: none;
@@ -50,7 +51,7 @@ body,html {
 	flex-direction: column;
 }
 .first-block{
-	background: url("../files/header-bg.png") no-repeat;
+	background: url("files/header-bg.png") no-repeat;
 	background-size: 100%;
 	background-position: center auto;
 	width: 100%;
@@ -97,9 +98,10 @@ body,html {
 	font-weight: 800;
 	color: white;
 	background-color: rgba(0,0,0,0.00);
-}
+	transition: 1s;
+	}
 .button:hover{
-	background: #00897b;
+	background-color: #00897b;
 	border: 1px solid #00897b;
 }
 .button-header:last-of-type{
@@ -114,8 +116,53 @@ body,html {
 .content{
 	margin-top:115px;
 }
-.header-aboutUs{
-	
+.wrapper-aboutUs{
+	margin-bottom: 5%;
+}
+.heading{
+	font-size: 25pt;
+	margin-bottom: 20px;
+}
+.parag{
+	margin: 0 auto;
+	max-width: 50%;
+	font-size: 18pt;
+}
+.block-aboutUs{
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-around;
+}
+.aboutUs-item {
+	min-height:;
+	width: 30%;
+	height: 100%;
+	max-height: 400px;
+	background: lightgray;
+}
+.flex-block {
+	display: flex;
+	flex-direction: column;
+}
+.img-flex{
+	fill: black;
+}
+.flex-block-aboutUs{
+	min-width: 200px;
+	width: 20%;
+	max-width: 360px;
+	text-align: center;
+	justify-content: space-around;
+
+}
+.img-aboutUs{
+	color: black;
+}
+.flex-block-aboutUs .img-flex-block-aboutUs,
+.flex-block-aboutUs .heading-flex-block-aboutUs,
+.flex-block-aboutUs .parag-flex-block-aboutUs {
+	margin-bottom: 40px;
 }
 /*@media only screen and (max-width:1500px){
 	.block-header{
